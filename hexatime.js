@@ -1,10 +1,8 @@
-/*
-
+/*!
   HexaTime.js 
   ===========
   2014 @LukyVj 
   http://lucasbonomi.com
-  
 */
 
 
