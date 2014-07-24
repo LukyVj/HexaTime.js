@@ -18,8 +18,7 @@ $(document).ready(function(){
       $('.hexatime_br_color').css('color','#' + t) // Border Color
     }, 1000);
   }
-  function deploy(){
+  
     hexatime_colorer();
-  }
- deploy();
+  
 });
