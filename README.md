@@ -1,8 +1,12 @@
 HexaTime.js
 ===========
 
-A jQuery plugin to create colored Text, backgrounds, borders ect, with a color based on the time ! (if 22:30:40, color #223040 )
+Turn time into a hexadecimal color. 
 
+If it's 17:37:20, then the color will be `#173720`. 
+
+Keep in mind this is the EUROPEAN TIME FORMAT. 
+Also, most of the generated colors are near to blue or green. 
 
 ## Origin 
 The origin of the idea popped out when I was browsing this website : http://www.jacopocolo.com/hexclock/
