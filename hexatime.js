@@ -1,24 +1,30 @@
 /*!
   HexaTime.js 
-  ===========
-  2014 @LukyVj 
+  - versionn : 1.1 
+  - Author : @LukyVj <lucas.bonomi@gmail.com>
+  ============================================
+  2014-2015 
 */
 
 
-$(document).ready(function(){
-  // Start the function 
+$(function(){
   function hexatime_colorer(){
-    // Set an interval ( 1sec )
+
     setInterval(function(){
-      var d = new Date(); // Get the date
-      var t = d.getHours() + d.getMinutes() + d.getSeconds(); // Format the date to get a plain string ( xxxxxx )
-      // Find and color the related classes
-      $('.hexatime_bg_color').css('background','#' + t) // Background
-      $('.hexatime_color').css('color','#' + t) // Color
-      $('.hexatime_br_color').css('color','#' + t) // Border Color
+
+      var d = new Date(); 
+      var h = d.getHours();
+      var m = d.getMinutes();
+      var s = d.getSeconds();
+      var t =  '#'+ h + m + s;
+      
+      $('.scene').css('background', t).
+      html('<span class="mention">'+ h+':'+m+':'+s+ '</span>')
     }, 1000);
   }
-  
+
+  function deploy(){
     hexatime_colorer();
-  
-});
+  }
+  deploy();
+})
