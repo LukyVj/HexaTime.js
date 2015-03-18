@@ -1,6 +1,6 @@
 /*!
   HexaTime.js 
-  - versionn : 1.1 
+  - version : 1.1 
   - Author : @LukyVj <lucas.bonomi@gmail.com>
   ============================================
   2014-2015 
